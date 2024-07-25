@@ -1,0 +1,39 @@
+*{margin: 0px;
+padding: 5px;}
+
+#titleP{color:violet rgb(3, 3, 3);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;}
+
+
+    nav{width: 300px;
+        border: 0px solid rgb(3, 3, 3);
+        align-items: center;}
+
+        .menu{list-style: none;
+            padding: 0;
+            margin: 0;}
+
+            .menu li{margin-bottom: 1px;}
+
+            .menu a{color: rgb(0, 0, 0);
+                background-color: violet;
+                text-decoration: none;
+                padding: 15px;
+                display: block;}
+                
+            .menu a:hover{
+                background-color: aquamarine
+            }
+            
+            .regresar {
+                background-color: violet;
+                text-decoration: none;
+                padding: 5px ;
+                display: block;
+            }
+
+            .regresar:hover {
+                background-color: aquamarine;
+            }
